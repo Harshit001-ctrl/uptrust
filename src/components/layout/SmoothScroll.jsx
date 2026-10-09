@@ -8,8 +8,6 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
 
-// Lenis ko gsap ke apne ticker se chalate hain (apna raf loop nahi), warna
-// ScrollTrigger ek frame peeche reh jaata hai aur pinned sections jitter karte hain.
 export default function SmoothScroll({
   duration = 1.1,
   lerp,

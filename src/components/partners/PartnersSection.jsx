@@ -2,7 +2,6 @@ import Image from "next/image";
 import AnimateIn from "../ui/AnimateIn";
 import { cq, cqMin } from "../layout/frame";
 
-/** Client logos, left to right. Sizes are each SVG's natural size. */
 const LOGOS = [
   { src: "/zomato.svg", alt: "Zomato", width: 143, height: 30 },
   { src: "/bosch.svg", alt: "Bosch", width: 152, height: 39 },

@@ -120,8 +120,6 @@ export default function Footer({
                 type="email"
                 name="email"
                 placeholder={newsletter.placeholder}
-                // site-wide orange focus outline yahan nahi chahiye, iske badle
-                // focus pe neeche ki line white ho jaati hai
                 className="w-full border-b border-white/30 bg-transparent pb-1 text-[12px] placeholder:text-white/40 focus:border-white focus-visible:outline-none"
               />
 
